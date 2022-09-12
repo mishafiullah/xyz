@@ -1,0 +1,194 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  background-color: #f6bcbc;
+}
+#red_color{
+  color: red;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: larger;
+}
+/*img {
+  opacity: 0.3;
+  max-height: 100%;
+  width: auto;
+}*/
+.header{
+  background-image: url(images/donation10.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: fit-content;
+  display: flow-root;
+  text-align: center;
+  resize: vertical;
+  flex-wrap: wrap;
+  position: fix;
+  
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+.header_title{
+  font-size: 8vw;
+  text-align: center;
+  color: rgb(241, 235, 235);
+
+}
+
+.header_subtitle{
+  text-overflow: clip;
+  font-size: 1.8vw;
+  color: rgb(237, 152, 32);
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 10vw;
+}
+.first_button{
+  text-decoration: none;
+  place-content: center;
+  background-color: rgb(182, 121, 8);
+  padding: 10px 40px;
+  size: 3vw;
+  border-radius: 5px;
+  color: rgb(246, 242, 242);
+  font-size: 1.2vw;
+  background-image: linear-gradient(rgb(244, 71, 9), orange);
+}
+
+
+.second_part{
+  text-align: center;
+}
+.second_header_title{
+  color: rgb(215, 13, 13);
+  font-family: fantasy;
+  font-size: 5vw;
+  text-align: center;
+}
+.middle_subtitle{
+  text-overflow: clip;
+  font-size: 1.8vw;
+  color: rgb(209, 141, 15);
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.amount{
+  display: flex;   
+  color: rgb(233, 216, 216);
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.amount_button{
+  background-color: rgb(224, 192, 192);
+  margin: 2%;
+  padding: 3% 3%;
+  font-size: 3vw;
+  border-radius: 5px;
+}
+#button_style{
+  border: 3px solid rgb(237, 49, 49);
+  color: rgb(219, 55, 55);
+  background-color: rgb(236, 180, 180);
+}
+input::placeholder {
+  color: rgb(233, 15, 15);
+  font-size: 3vw;
+  text-align: center;
+  
+}
+.amount_input{
+  size: 20rem;
+  width: 30vw;
+  height: 3.5vw;
+  text-decoration: none;
+}
+
+.half-width{
+  width: 50%;
+  padding-left: 5%;
+}
+
+
+
+.second_banner{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  width:auto;
+  background-position: right;
+}
+
+
+.shadow{
+  
+  box-shadow: 10px 10px 10px gray;
+  width: 45%;
+  margin: 3%;
+  padding: 3%;
+  border-top: 5px solid orangered;
+}
+.form_shadow{
+  
+  box-shadow: 10px 10px 10px gray;
+
+  margin: 0 20%;
+  padding: 2% 6%;
+  border-top: 5px solid orangered;
+}
+.last_banner{
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  font-size: 1.5vw ;
+  background-position: left;
+  display: flex;
+}
+form{
+  color: rgb(59, 59, 78);
+  font-size: larger;
+  font-size: 1.5vw;
+
+  
+}
+.form{
+  align-items: center;
+  position: center;
+  text-align: center;
+
+}
+footer{
+  background-color: black;
+  margin: 0;
+}
+
+.box{
+  
+  width: 20%;
+  padding: 2.2%;
+
+  
+}
+picture{
+  width: 100%;
+  border-radius: 15px;
+}
+
+img:hover{
+  transform: scale(2,2);
+  transition: 1.5s  transform;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
