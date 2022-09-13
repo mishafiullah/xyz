@@ -5,15 +5,10 @@ body{
 }
 #red_color{
   color: red;
-  font-family: fantasy;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: larger;
 }
-/*img {
-  opacity: 0.3;
-  max-height: 100%;
-  width: auto;
-}*/
 .header{
   background-image: url(images/donation10.jpg);
   background-repeat: no-repeat;
@@ -35,14 +30,14 @@ body{
 .header_title{
   font-size: 8vw;
   text-align: center;
-  color: rgb(241, 235, 235);
+  color: rgb(16, 46, 240);
 
 }
 
 .header_subtitle{
   text-overflow: clip;
   font-size: 1.8vw;
-  color: rgb(237, 152, 32);
+  color: rgb(1, 57, 2);
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -68,14 +63,14 @@ body{
 }
 .second_header_title{
   color: rgb(215, 13, 13);
-  font-family: fantasy;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 5vw;
   text-align: center;
 }
 .middle_subtitle{
   text-overflow: clip;
   font-size: 1.8vw;
-  color: rgb(209, 141, 15);
+  color: rgb(67, 45, 3);
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -89,7 +84,7 @@ body{
 
 }
 .amount_button{
-  background-color: rgb(224, 192, 192);
+  background-color: rgb(102, 102, 243);
   margin: 2%;
   padding: 3% 3%;
   font-size: 3vw;
@@ -134,11 +129,11 @@ input::placeholder {
   width: 45%;
   margin: 3%;
   padding: 3%;
-  border-top: 5px solid orangered;
+  border-top: 5px solid rgb(242, 93, 39);
 }
 .form_shadow{
   
-  box-shadow: 10px 10px 10px gray;
+  box-shadow: 10px 10px 10px rgb(245, 180, 180);
 
   margin: 0 20%;
   padding: 2% 6%;
@@ -165,7 +160,7 @@ form{
 
 }
 footer{
-  background-color: black;
+  background-color: rgb(96, 66, 66);
   margin: 0;
 }
 
